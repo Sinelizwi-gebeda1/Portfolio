@@ -5,3 +5,10 @@ var typed = new Typed(".looptext", {
     backDelay: 1000,
     loop: true,
 });
+// Function to toggle the navigation menu on smaller screens
+function toggleMenu() {
+    const menu = document.querySelector('.navigation');
+    menu.classList.toggle('active'); // Toggle the 'active' class to show/hide the menu
+}
+
+
