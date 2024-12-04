@@ -740,6 +740,12 @@
     border-radius: 5px;
     /* color: #333; */
   }
+  .form-field input{
+    height: 2rem;
+  }
+  .form-field textarea {
+    height: 6rem;
+  }
   
   .contact-form .form-field textarea {
     resize: vertical;
