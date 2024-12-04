@@ -751,22 +751,22 @@
     resize: vertical;
   }
   
-  .contact-form .btn-submit {
-    background-color: #8338EC;
-    border: #7d2ae8;
+ .contact-form .btn-submit {
     color: #fff;
-    font-size: 1.1rem;
-    padding: 12px 30px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
+    text-decoration: none;
+    padding: 8px 35px;
+    background: #7d2ae8;
+    border-radius: 10px;
+    border: 2px solid #7d2ae8;
+    font-weight: 500;
+    transition: .3s;
   }
   
   .contact-form .btn-submit:hover {
     color: #7d2ae8;
     background: transparent;
   }
+  
   
   /* Responsive Design */
   @media (max-width: 768px) {
