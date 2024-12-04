@@ -369,109 +369,196 @@
     color: #081b29;
   }
   
-  .progresss-line.html::after {
-    content: '';
-    display: block;
+    .progresss-line.html::after {
+    content: '95%'; /* Add percentage */
+    position: absolute;
+    right: 10px; /* Position text at the end of the bar */
+    color: white;
+    font-weight: bold;
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 100%;
-    width: 90%;
+    width: 95%;
     background: red;
     border-radius: 5px;
-  }
+}
+
+
   
   .progresss-line.css::after {
-    content: '';
-    display: block;
+    content: '95%'; /* Add percentage */
+    position: absolute;
+    right: 10px; /* Position text at the end of the bar */
+    color: white;
+    font-weight: bold;
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 100%;
-    width: 80%;
-    background: purple;
+    width: 95%;
     border-radius: 5px;
+    background: purple;
   }
   
   .progresss-line.javascript::after {
-    content: '';
-    display: block;
+    content: '90%'; /* Add percentage */
+    position: absolute;
+    right: 10px; /* Position text at the end of the bar */
+    color: white;
+    font-weight: bold;
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 100%;
-    width: 75%;
-    background: #081b29;
+    width: 90%;
     border-radius: 5px;
+    background: #081b29;
   }
   
   .progresss-line.php::after {
-    content: '';
-    display: block;
+    content: '75%'; /* Add percentage */
+    position: absolute;
+    right: 10px; /* Position text at the end of the bar */
+    color: white;
+    font-weight: bold;
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 100%;
-    width: 70%;
-    background: #081b29;
+    width: 75%;
     border-radius: 5px;
+    background: #539fb3;
   }
   
   .progresss-line.python::after {
-    content: '';
-    display: block;
+    content: '85%'; /* Add percentage */
+    position: absolute;
+    right: 10px; /* Position text at the end of the bar */
+    color: white;
+    font-weight: bold;
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 100%;
     width: 85%;
-    background: blue;
     border-radius: 5px;
+    background: blue;
   }
   
   .progresss-line.wordpress::after {
-    content: '';
-    display: block;
+    content: '100%'; /* Add percentage */
+    position: absolute;
+    right: 10px; /* Position text at the end of the bar */
+    color: white;
+    font-weight: bold;
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 100%;
-    width: 65%;
-    background: green;
+    width: 100%;
     border-radius: 5px;
+    background: green;
   }
   
   .progresss-line.mysql::after {
-    content: '';
-    display: block;
+    content: '90%'; /* Add percentage */
+    position: absolute;
+    right: 10px; /* Position text at the end of the bar */
+    color: white;
+    font-weight: bold;
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 100%;
-    width: 60%;
-    background: orangered;
+    width: 90%;
     border-radius: 5px;
+    background: orangered;
   }
   
   .progresss-line.java::after {
-    content: '';
-    display: block;
+    content: '75%'; /* Add percentage */
+    position: absolute;
+    right: 10px; /* Position text at the end of the bar */
+    color: white;
+    font-weight: bold;
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 100%;
-    width: 60%;
-    background: #3A86FF;
+    width: 75%;
     border-radius: 5px;
+    background: #3A86FF;
   }
   
   .progresss-line.drupal::after {
-    content: '';
-    display: block;
+    content: '95%'; /* Add percentage */
+    position: absolute;
+    right: 10px; /* Position text at the end of the bar */
+    color: white;
+    font-weight: bold;
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 100%;
-    width: 90%;
-    background: #1c5f51;
+    width: 95%;
     border-radius: 5px;
+    background: #1c5f51;
   }
   .progresss-line.trello::after {
-    content: '';
-    display: block;
+    content: '100%'; /* Add percentage */
+    position: absolute;
+    right: 10px; /* Position text at the end of the bar */
+    color: white;
+    font-weight: bold;
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 100%;
     width: 100%;
-    background: #c5a53b;
     border-radius: 5px;
+    background: #c5a53b;
   }
   .progresss-line.vb::after {
-    content: '';
-    display: block;
+    content: '80%'; /* Add percentage */
+    position: absolute;
+    right: 10px; /* Position text at the end of the bar */
+    color: white;
+    font-weight: bold;
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 100%;
     width: 80%;
-    background: #8ea722;
     border-radius: 5px;
+    background: #8ea722;
   }
   .progresss-line.git::after {
-    content: '';
-    display: block;
+    content: '80%'; /* Add percentage */
+    position: absolute;
+    right: 10px; /* Position text at the end of the bar */
+    color: white;
+    font-weight: bold;
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 100%;
-    width: 90%;
-    background: #9e55a5;
+    width: 80%;
     border-radius: 5px;
+    background: #9e55a5;
+    
   }
   .bar:hover {
     background: #e9ecef;
