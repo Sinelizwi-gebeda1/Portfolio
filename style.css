@@ -473,6 +473,12 @@
     background: #9e55a5;
     border-radius: 5px;
   }
+  .bar:hover {
+    background: #e9ecef;
+    transform: scale(1.02);
+    transition: all 0.3s ease;
+}
+
   /* Radial Bars */
   .radial-bars {
     display: flex;
