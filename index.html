@@ -1,377 +1,501 @@
 <!DOCTYPE html>
-<html lang="en-US">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-    <title>Portfolio of Sinelizwi Gebeda</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sinelizwi Gebeda</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Philosopher:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="mobile-nav-menus">
+      <div class="close-icon">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="size-6"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M6 18 18 6M6 6l12 12"
+          />
+        </svg>
+      </div>
+      <div class="menu-items">
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Projects</a>
+        <a href="#">Contact</a>
+      </div>
+    </div>
+    <div class="bg-elements">
+      <div class="circles-container">
+        <span class="circle circle-1"></span>
+        <span class="circle circle-2"></span>
+        <span class="circle circle-3"></span>
+      </div>
+    </div>
 
-</head>
-<body>
-    <header>
-        <h2 class="logo"><span>Sine</span>lizwi.</h2>
-        <nav class="navigation">
-            <a href="#about">About</a>
-            <a href="#projects">Projects</a>
-            <a href="#skills">Skills</a>
-            <a href="#get-in-touch">Get in touch</a>
-        </nav>
-        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
-        <a href="#get-in-touch" class="btn-talk">Let's chat</a>
-    </header>
+    <div class="nav-wrapper">
+      <nav>
+        <a href="#" class="logo">Software Engineer<span class="dot">.</span></a>
 
-    <section class="home" id="home">
-        <div class="content">
-            <h4>Hi,</h4>
-            <h3>I'm <span>Sinelizwi,</span></h3>
-            <h2>a <span class="looptext"></span></h2>
-            <p>Innovative and self-driven software engineer with over 5 years of experience in building responsive, user-friendly websites and web applications. Proficient in front-end and backend development with a strong background in JavaScript, HTML, CSS, PHP and Python. Skilled in collaborating with cross-functional teams to deliver high-quality digital solutions that meet user needs. Eager to contribute technical expertise to a dynamic web development team.</p>
-            <div class="btn-group">
-                <a href="https://drive.google.com/file/d/18iBMc4uEzxSZR1l8gyhTMU5dZyiFzu7x/view?usp=drive_link" target="_blank">Download CV</a>
-                <a href="#projects">Projects</a>
-            </div>
-            <div class="social-icons">
-                <a href="https://www.linkedin.com/in/sinelizwi-gebeda-9668a2128/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="https://www.facebook.com/sine.gebeda" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
-                <a href="https://github.com/Sinelizwi-gebeda1" target="_blank"><i class="fa-brands fa-square-github"></i></a>
-            </div>
+        <div class="menu-icon">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="size-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M3.75 9h16.5m-16.5 6.75h16.5"
+            />
+          </svg>
         </div>
-        <div class="image-pic">
-            <img src="img/kat.jpeg">
-        </div>
-    </section>
 
-    <section class="about-us" id="about">
-        <div class="about-left">
+        <div class="menu-items">
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </div>
+
+    <!-- End of the nav -->
+    <div class="wrapper">
+      <header class="hero">
+        <div class="hero-image-container">
+          <div class="image-overlay"></div>
+          <img
+            class="hero-image"
+            src="images/kat.jpeg"
+            alt="Hero Image"
+          />
+        </div>
+
+    
+
+        <h1>Building<br /><span class="blue-text">Solutions</span><br />that work</h1>
+
+        <div class="sub-heading">
+          <p>Code that speaks volumes with minimal complexity.</p>
+          <p>Crafting software solutions that are intuitive, impactful, and elegantly engineered.</p>
+          <p>Let’s build systems that not only function flawlessly but stand out with purpose.</p>
+        </div>
+
+        <a href="https://www.linkedin.com/in/sinelizwi-gebeda-9668a2128/" class="btn" target="_blank"
+          >Let's Collaborate
+          <span class="icon"><img src="images/right-arrow.svg" alt="" /></span
+        ></a>
+
+        <div class="achievements">
+          <div class="achievement">
+            <h3>Experience</h3>
+            <p>Over 5 years developing scalable web applications and backend systems</p>
+          </div>
+
+          <div class="achievement">
+            <h3>Specialities</h3>
+            <p>Django & React, RESTful APIs, PostgreSQL, Automation, Clean Code Architecture</p>
+          </div>
+
+        <!--  <div class="achievement">
+            <h3>Clients Served</h3>
+            <p>50+ brands worldwide</p>
+          </div>
+
+          <div class="achievement">
+            <h3>Recognition</h3>
+            <p>Featured on Behance and Dribbble</p>
+          </div>-->
+        </div>
+      </header>
+      <!-- End of the header -->
+    </div>
+
+    <section id="about">
+      <div class="wrapper">
+        <div class="left">
+          <img src="images/about.jpg" alt="About Image" />
+        </div>
+
+        <div class="description">
           <h2>About Me</h2>
           <p>
-            Passionate and detail-oriented Developer with over 4 years of experience in creating dynamic, 
-            responsive, and user-friendly web applications and desktop applications.
+            <strong>Hi, I’m Sinelizwi!</strong><br />
+            I’m a software engineer with over 5 years of experience building intuitive web applications, scalable backend systems,
+             and impactful digital solutions. I’m passionate about turning ideas into clean, efficient code that solves real problems 
+             and drives innovation. Let’s build something extraordinary together!
           </p>
+          <a href="#" class="btn outlined"
+            >Download My CV
+            <span class="icon"
+              ><img src="images/right-arrow-white.svg" alt="" /></span
+          ></a>
         </div>
-        <div class="about-right">
-            <div class="timeline">
-            <div class="timeline-item">
-              <span class="year"> 2025 </span>
-              <p>Completed the online course <b>Programming with Java</b> on Coursera (offered by Amazon).</p>
+      </div>
+    </section>
+
+    <!-- End of about us section -->
+
+    <section id="services">
+      <div class="wrapper">
+        <h2>Services I Offer</h2>
+
+        <div class="content">
+          <div class="accordion">
+            <div
+              class="accordion-item active"
+              data-image="images/brand-identity.jpg">
+              <div class="accordion-header">Full-Stack Web Development</div>
+              <p class="accordion-content">
+                Frontend to backend. I build seamless, responsive, and high-performance web applications using Django, 
+                React, and Node.js.
+              </p>
             </div>
-            <div class="timeline-item">
-              <span class="year"> 2024 - Present</span>
-              <p>Enrolled in the Systems Software development Programme at Capaciti, focusing on advanced skills development.</p>
+
+            <div class="accordion-item" data-image="images/project4.jpg">
+              <div class="accordion-header">Custom Software Development</div>
+              <p class="accordion-content">
+                Designing and developing web applications tailored to your business needs,from idea to deployment.
+              </p>
             </div>
-            <div class="timeline-item">
-              <span class="year"> 2022 - 2024</span>
-              <p>Worked at Flicker Leap as a Digital intern</p>
+
+            <div class="accordion-item" data-image="images/ui-ux-design.jpg">
+              <div class="accordion-header">Cross-Browser & Mobile Responsive Design</div>
+              <p class="accordion-content">
+                Ensuring your app looks and works great on all devices and browsers.
+              </p>
             </div>
-            <div class="timeline-item">
-              <span class="year"> 2020 - 2022</span>
-              <p>Worked as a Developer at Loomee Group, gaining valuable leadership and project management skills.</p>
+
+            <div class="accordion-item" data-image="images/web-design.jpg">
+              <div class="accordion-header">UI/UX Collaboration & Prototyping</div>
+              <p class="accordion-content">
+                Working closely with designers or creating prototypes to ensure smooth user experiences.
+              </p>
             </div>
-            <div class="timeline-item">
-              <span class="year"> 2020</span>
-              <p>Obtained my BTech qualification from Walter Sisulu University</p>
+
+            <div
+              class="accordion-item"
+              data-image="images/social-media-design.jpg"
+            >
+              <div class="accordion-header">Performance Optimization</div>
+              <p class="accordion-content">
+                Improving frontend load times, backend efficiency, and database query optimization.
+              </p>
             </div>
-            <div class="timeline-item">
-                <span class="year"> 2016</span>
-                <p>Obtained my National Diploma qualification from Walter Sisulu University</p>
-              </div>
-              <div class="timeline-item">
-                <span class="year"> 2012</span>
-                <p>Passed my matric</p>
-              </div>
+
+            <div class="accordion-item" data-image="images/illustration.jpg">
+              <div class="accordion-header">Illustration</div>
+              <p class="accordion-content">
+                Custom illustrations and artwork for your brand.
+              </p>
+            </div>
+          </div>
+
+          <div class="image">
+            <img src="images/brand-identity.jpg" alt="" />
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-    <section class="recent-projects" id="projects">
-        <h1 class="section-heading">Recent Projects</h1>
+    <!-- End of services section -->
+
+    <section id="brands">
+      <div class="wrapper">
+        <h2>Certification </h2>
+        <div class="brand-logos">
+          <img src="images/aws.png" alt="" />
+          <img src="images/cisco.png" alt="" />
+          <img src="" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- End of brands section -->
+
+    <section id="projects">
+      <div class="wrapper">
+        <h2>Projects</h2>
+
         <div class="projects-container">
+          <div class="line-1">
             <div class="project">
-                <div class="project-icon"><i style="color: rgb(62, 184, 99)" class='bx bxl-html5'></i></div>
-                <h2>Fruit & Veggie Delight</h2>
-                <p>A web-based project designed to showcase fresh and organic fruits and vegetables with a delightful user interface. Created using HTML, CSS, and JavaScript.</p>
-                <a href="https://sinelizwi-gebeda1.github.io/Project/" target="_blank" class="project-link">View Project</a>
+              <img src="images/vegiedelight.png" alt="Vegie Delight Screenshot" />
+              <div class="project-description">
+                A web-based project designed to showcase fresh and organic fruits and vegetables with a delightful user interface. 
+                Designed using HTML, CSS, and JavaScript.
+                <br />
+                <a href="https://example.com" target="_blank">
+                  <span class="blue-text">Open</span>
+                </a>
+              </div>
             </div>
-            <div class="project">
-                <div class="project-icon"><i style="color: rgb(163, 148, 79)" class='bx bxl-python'></i></div>
-                <h2>Fitness Tracker App</h2>
-                <p>A Python application that tracks user fitness progress, including measurements like weight, BMI, and workout logs. Built with Python and Tkinter.</p>
-                <a href="https://github.com/Sinelizwi-gebeda1/Titans-Fitness-App---final-" target="_blank" class="project-link">View Project</a>
-            </div>
-            <div class="project">
-                <div class="project-icon"><i style="color: rgb(70, 58, 62)" class='bx bxl-python'></i></div>
-                <h2>BotBuddy</h2>
-                <p>BotBuddy is a mental health chatbot designed to provide compassionate support and meaningful interactions, helping users navigate their thoughts and feelings with ease </p>
-                <a href="https://github.com/Sinelizwi-gebeda1/BotBuddy" target="_blank" class="project-link">View Project</a>
-            </div>
-             <div class="project">
-                <div class="project-icon"><i style="color: rgb(126, 78, 16)" class='bx bxl-java'></i></div>
-                <h2>LibraX</h2>
-                <p>A Java application with two user roles: admin and user. Admins are responsible for book management, including adding, viewing, and removing books. Users can search for, borrow, and return books </p>
-                <a href="https://github.com/Sinelizwi-gebeda1/LibraX" target="_blank" class="project-link">View Project</a>
-            </div>
-      
-            <!-- <div class="project">
-                <div class="project-icon"><i style="color: rgb(63, 113, 128)" class='bx bxl-wordpress'></i></div>
-                <h2>FunxionO</h2>
-                <p>FunxionO is a user-friendly application built in WordPress that combines task management, data analysis, and automation to enhance productivity and streamline workflows</p>
-                <a href="https://www.funxiono.co.za/" target="_blank" class="project-link">View Project</a>
-            </div>
-            <div class="project">
-                <div class="project-icon"><i style="color: rgb(24, 13, 63)" class='bx bxl-python'></i></div>
-                <h2>Cartoonito</h2>
-                <p>A Python-powered desktop application that transforms your images into stunning cartoon-style art, combining a user-friendly interface with powerful tools for a seamless creative experience. </p>
-                <a href="https://github.com/Project-3-Python/Cartoonify" target="_blank" class="project-link">View Project</a>
-            </div>
-          
-            <div class="project">
-                <div class="project-icon"><i style="color: rgb(107, 106, 189)" class='bx bxl-wordpress'></i></div>
-                <h2>Blu by Adcorp</h2>
-                <p>An innovative platform that streamlines talent sourcing and workforce management, helping businesses connect with skilled professionals through advanced technology and tailored solutions. </p>
-                <a href="https://www.blubyadcorp.com/" target="_blank" class="project-link">View Project</a>
-            </div>
-            <div class="project">
-                <div class="project-icon"><i style="color: rgb(39, 108, 121)" class='bx bxl-wordpress'></i></div>
-                <h2>PMI</h2>
-                <p>The Project Management Institute (PMI) is a global nonprofit that sets project management standards and offers certifications, training, and resources to help professionals succeed. </p>
-                <a href="https://www.pmi-sa.co.za/" target="_blank" class="project-link">View Project</a>
-            </div>
-            <div class="project">
-                <div class="project-icon"><i style="color: rgb(102, 131, 184)" class='bx bxl-wordpress'></i></div>
-                <h2>King Brands</h2>
-                <p>Is known for providing high-quality products and solutions across various industries. Specializing in innovation, they offer a diverse range of goods designed to meet customer needs with reliability and performance </p>
-                <a href="https://www.kingbrands.co.za/" target="_blank" class="project-link">View Project</a>
-            </div> -->
-        </div>
-        <div id="skills">
 
-        </div>
-    </section >
-   
 
-    <section class="skills-section" >
-        <div class="skills-container">
-            <h1 class="skills-heading">Technical Skills</h1>
-            <div class="technical-bars">
-                <div class="bar"><i style="color: rgb(124, 41, 41)" class='bx bxl-html5'></i>
-                    <div class="info"></div>
-                    <div class="progresss-line html">
-                        <span>HTML</span>
-                    </div>
-                </div>
-                <div class="bar"><i style="color: rgb(179, 119, 179)" class='bx bxs-file-css'></i>
-                    <div class="info"></div>
-                    <div class="progresss-line css">
-                        <span>CSS</span>
-                    </div>
-                </div>
-                <div class="bar"><i style="color: #3e637e" class='bx bxl-javascript'></i>
-                    <div class="info"></div>
-                    <div class="progresss-line javascript">
-                        <span>JavaScript</span>
-                    </div>
-                </div>
-                <div class="bar"><i style="color: #a38787" class='bx bxl-php'></i>
-                    <div class="info"></div>
-                    <div class="progresss-line php">
-                        <span>PHP</span>
-                    </div>
-                </div>
-                <div class="bar"><i style="color: rgb(105, 105, 155)" class='bx bxl-python'></i>
-                    <div class="info"></div>
-                    <div class="progresss-line python">
-                        <span>Python</span>
-                    </div>
-                </div>
-                <div class="bar"><i style="color: rgb(95, 185, 95);" class='bx bxl-wordpress'></i>
-                    <div class="info"></div>
-                    <div class="progresss-line wordpress">
-                        <span>WordPress</span>
-                    </div>
-                </div>
-                <div class="bar"><i style="color: rgb(156, 125, 113)" class='bx bxl-postgresql'></i>
-                    <div class="info"></div>
-                    <div class="progresss-line mysql">
-                        <span>MySQL</span>
-                    </div>
-                </div>
-                <div class="bar"><i style="color: #829ac0" class='bx bxl-java'></i>
-                    <div class="info"></div>
-                    <div class="progresss-line java">
-                        <span>Java</span>
-                    </div>
-                </div>
-                <div class="bar"><i style="color: #4db97a"  class='bx bxl-drupal'></i>
-                    <div class="info"></div>
-                    <div class="progresss-line drupal">
-                        <span>Drupal</span>
-                    </div>
-                </div>
-                <div class="bar"><i style="color: #eb886f"  class='bx bxl-trello' ></i>
-                    <div class="info"></div>
-                    <div class="progresss-line trello">
-                        <span>Trello</span>
-                    </div>
-                </div>
-                <div class="bar"><i style="color: #d3c939"  class='bx bxl-visual-studio' ></i>
-                    <div class="info"></div>
-                    <div class="progresss-line vb">
-                        <span>Visual Basic</span>
-                    </div>
-                </div>
-                <div class="bar"><i style="color: #703370" class='bx bxl-git' ></i>
-                    <div class="info"></div>
-                    <div class="progresss-line git">
-                        <span>Git</span>
-                    </div>
-                </div>
+            <div class="project">
+              <img src="images/ticket.png" alt="" />
+              <div class="project-description">
+               A web-based ticketing system designed to streamline IT support workflows by automating issue 
+                  logging, assignment, escalation, and resolution. Developed using Django Framework
+              </div>
             </div>
+          </div>
+
+          <div class="line-2">
+            <div class="project">
+              <img src="images/fitness.png" alt="" />
+              <div class="project-description">
+                An application that tracks user fitness progress, including measurements
+                like weight, BMI, and workout logs. Built with Python and TKinter
+                <!--<span class="blue-text">Logo</span> Design-->
+              </div>
+            </div>
+
+            <div class="project">
+              <img src="images/librax.png" alt="" />
+              <div class="project-description">
+                A Java application with two roles: admin and user. Admins are responsible for book management
+                including adding,viewing, and removing books. Users search, borrow and return books
+              </div>
+            </div>
+          </div>
         </div>
-    
-    <!-- <br>
-        <div class="professional-container">
-            <h1 class="skills-heading">Professional Skills</h1>
-            <div class="radial-bars">
-                <div class="radial-bar">
-                    <svg x="0px" y="0px" viewBox="0 0 200 200">
-                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
-                        <circle class="path path1" cx="100" cy="100" r="80"></circle>
-                    </svg>
-                    <div class="percentage">90%</div>
-                    <div class="text">Creativity</div>
-                </div>
-                <div class="radial-bar">
-                    <svg x="0px" y="0px" viewBox="0 0 200 200">
-                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
-                        <circle class="path path2" cx="100" cy="100" r="80"></circle>
-                    </svg>
-                    <div class="percentage">95%</div>
-                    <div class="text">Communication</div>
-                </div>
-                <div class="radial-bar">
-                    <svg x="0px" y="0px" viewBox="0 0 200 200">
-                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
-                        <circle class="path path3" cx="100" cy="100" r="80"></circle>
-                    </svg>
-                    <div class="percentage">95%</div>
-                    <div class="text">Teamwork</div>
-                </div>
-                <div class="radial-bar">
-                    <svg x="0px" y="0px" viewBox="0 0 200 200">
-                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
-                        <circle class="path path4" cx="100" cy="100" r="80"></circle>
-                    </svg>
-                    <div class="percentage">90%</div>
-                    <div class="text">Problem Solving</div>
-                </div>
-                <div class="radial-bar">
-                    <svg x="0px" y="0px" viewBox="0 0 200 200">
-                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
-                        <circle class="path path5" cx="100" cy="100" r="80"></circle>
-                    </svg>
-                    <div class="percentage">95%</div>
-                    <div class="text">Time management</div>
-                </div>
-            </div>
-        </div> -->
+
+        <a href="https://github.com/Sinelizwi-gebeda1" target="_blankl" class="btn"
+          >View All Projects
+          <span class="icon"><img src="images/right-arrow.svg" alt="" /></span
+        ></a>
+      </div>
     </section>
 
-    <section class="contact-me" id="get-in-touch">
-        <h2 class="section-heading">Get in Touch</h2>
-        <p>If you have any questions or want to work together, feel free to reach out!</p>
-        <div class="contact-container">
-            <!-- Left Section: Contact Details and Social Media -->
-            <div class="left-section">
-                <div class="contact-details">
-                    <h3>Email:</h3>
-                    <a href="mailto:sinelizwigebeda@gmail.com">sinelizwigebeda@gmail.com</a>
-                    <!-- <h3>Phone:</h3>
-                    <p>+27 73 369 6351</p> -->
-                </div>
-    
-                <div class="social-media">
-                    <h3>Follow Me</h3>
-                    <a href="https://www.linkedin.com/in/sinelizwi-gebeda-9668a2128/" target="_blank">
-                        <i class="fa-brands fa-linkedin"></i>
-                    </a>
-                    <a href="https://www.facebook.com/sine.gebeda" target="_blank">
-                        <i class="fa-brands fa-square-facebook"></i>
-                    </a>
-                    <a href="https://github.com/Sinelizwi-gebeda1" target="_blank">
-                        <i class="fa-brands fa-github"></i>
-                    </a>
-                    <!-- <a href="https://twitter.com/sinelizwi" target="_blank">
-                        <i class="fa-brands fa-twitter"></i>
-                    </a> -->
-                </div>
-            </div>
-    
-            <!-- Right Section: Contact Form -->
-            <div class="right-section">
-                <div class="contact-form">
-                    <h4>Contact Form</h4>
-                    <form action="https://api.web3forms.com/submit" method="POST">
-                        <input type="hidden" name="access_key" value="8cfecf87-05d1-42dd-8e2f-84b70a2f8dda">
+    <!-- End of projects section -->
 
-                        <div class="form-field">
-                            <label for="name">Your Name</label>
-                            <input type="text" id="name" name="name" required>
-                        </div>
-                        <div class="form-field">
-                            <label for="email">Your Email</label>
-                            <input type="email" id="email" name="email" required>
-                        </div>
-                        <div class="form-field">
-                            <label for="message">Your Message</label>
-                            <textarea id="message" name="message" rows="5" required></textarea>
-                        </div>
-                        <button type="submit" class="btn-submit">Send Message</button>
-                    </form>
-                </div>
+    <section id="process">
+      <div class="wrapper">
+        <h2>My Development Process</h2>
+        <div class="content">
+          <div class="left">
+            <p>
+              Great software is more than just code. it’s about solving real problems with clarity and purpose. I work closely with users
+               and stakeholders to understand their goals, then design and develop intuitive, scalable solutions that exceed expectations.
+                From planning and prototyping to deployment and support, I ensure a smooth, collaborative journey every step of the way. 
+                
+            </p>
+            <a href="#" class="btn dark"
+              >Start Your Project<span class="icon"
+                ><img src="images/right-arrow-white.svg" alt="" /></span
+            ></a>
+          </div>
+
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">Discovery </div>
             </div>
+
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">Design</div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">Build</div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">Test & Iterate</div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">Deploy & Improve</div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
-    <section>
-        <!-- Footer Section -->
-     <footer>
-       <div class="footer-container">
-         <div class="footer-content">
-             <!-- Social Media Links Section -->
-             <div class="social-icons-footer">
-               <!-- <h4>Follow Me</h4> -->
-               <a href="https://www.linkedin.com/in/sinelizwi-gebeda-9668a2128/" target="_blank">
-                   <i class="fa-brands fa-linkedin"></i></a>
-               <a href="https://www.facebook.com/sine.gebeda" target="_blank">
-                       <i class="fa-brands fa-square-facebook"></i></a>
-               <a href="https://github.com/Sinelizwi-gebeda1" target="_blank">
-                       <i class="fa-brands fa-github"></i></a>    
-               <!-- <a href="https://www.facebook.com/sine.gebeda" target="_blank" class="fa-brands fa-square-facebook">GitHub</a>
-             <a href="https://github.com/sinelizwigebeda1" class="fa-brands fa-square-github">Email</a> -->
-           </div> 
-           <!-- Quick Links Section -->
-           <div class="quick-links">
-             <!-- <h4>Quick Links</h4> -->
-   
-             <ul>
-               <li><a href="#home">Home</a></li>
-               <li><a href="#about">About Me</a></li>
-               <li><a href="#projects">Projects</a></li>
-               <li><a href="#skills">Skills</a></li>
-               <li><a href="#get-in-touch">Contact</a></li>
-             </ul>
-           </div>
-   
-        
-         </div>
-         <p>&copy; 2024 Sinelizwi. All rights reserved.</p>
-       </div>
-     </footer>
-   </section>
+    <!-- End of the process section -->
 
+    <section id="testimonials">
+      <div class="wrapper">
+        <div class="slider">
+          <div class="testimonials-container">
+            <div class="testimonial-content">
+              <div class="testimonial-image">
+                <img src="images/profpic.png" alt="Client Testimonial" />
+              </div>
+
+              <div class="text-and-name">
+                <div class="quote-mark">
+                  <img src="images/quote-icon.svg" alt="" />
+                </div>
+
+                <p class="testimonial-text">
+                  Coming
+                </p>
+
+                <div class="testimonial-author">
+                  <h3>Name and Surname</h3>
+                  <p>Profession</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="testimonial-content">
+              <div class="testimonial-image">
+                <img src="images/profpic.png" alt="Client Testimonial" />
+              </div>
+
+              <div class="text-and-name">
+                <div class="quote-mark">
+                  <img src="images/quote-icon.svg" alt="" />
+                </div>
+
+                <p class="testimonial-text">
+                  Coming soon 
+                </p>
+
+                <div class="testimonial-author">
+                  <h3>Name and Surname</h3>
+                  <p>Profession</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="testimonial-content">
+              <div class="testimonial-image">
+                <img src="images/profpic.png" alt="Client Testimonial" />
+              </div>
+
+              <div class="text-and-name">
+                <div class="quote-mark">
+                  <img src="images/quote-icon.svg" alt="" />
+                </div>
+
+                <p class="testimonial-text">
+                  Coming Soon
+                </p>
+
+                <div class="testimonial-author">
+                  <h3>Name & Surname</h3>
+                  <p>Profession</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="navigation-arrows">
+          <button class="nav-arrow prev">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M15.75 19.5 8.25 12l7.5-7.5"
+              />
+            </svg>
+          </button>
+
+          <button class="nav-arrow next">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="m8.25 4.5 7.5 7.5-7.5 7.5"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- End of testimonials section -->
+
+    <section id="contact">
+      <div class="wrapper">
+        <h2>Contact Me</h2>
+
+        <form name="contact" action="https://api.web3forms.com/submit" method="POST" netlify>
+          <input type="hidden" name="access_key" value="8cfecf87-05d1-42dd-8e2f-84b70a2f8dda">
+
+          <div class="group">
+            <input type="text" name="full_name" placeholder="Full Name" />
+            <input type="email" name="email" placeholder="Email" />
+          </div>
+          <textarea
+            name="message"
+            placeholder="Your Message"
+            rows="6"
+          ></textarea>
+          <button class="btn" type="submit">
+            Send Message
+            <span class="icon"
+              ><img src="images/right-arrow.svg" alt=""
+            /></span>
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!-- End of contact section -->
+
+    <footer>
+      <div class="wrapper">
+        <div class="left">
+          <a href="#" class="logo1">Software Engineer<span class="dot">.</span></a>
+          <p>Designing ideas that make an impact.</p>
+        </div>
+
+        <div class="right">
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+          <a href="#services">Services</a>
+          <a href="#projects">Projects</a>
+        </div>
+      </div>
+    </footer>
+
+    <div class="copyright">
+      <div class="wrapper">
+        <p>&copy; 2025 Sinelizwi G. All Rights Reserved. Designed with passion.</p>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/ScrollTrigger.min.js"></script>
     <script src="main.js"></script>
-</body>
+  </body>
 </html>
