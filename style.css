@@ -386,27 +386,16 @@ h2::first-letter {
 }
 
 .brand-logos img {
-  height: 50px;
+  height: 15em;
 }
 
 /* Projects Section */
 
 .projects-container {
   margin-top: 60px;
-}
-
-#projects .line-1,
-#projects .line-2 {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 columns */
   gap: 24px;
-  margin-bottom: 24px;
-}
-
-#projects .projects-container img {
-  position: absolute;
-  inset: 0;
-  object-fit: cover;
-  transition: all 500ms ease;
 }
 
 #projects .project {
@@ -415,28 +404,54 @@ h2::first-letter {
   display: grid;
   place-items: center;
   overflow: hidden;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+#projects .projects-container img {
+  position: absolute;
+  inset: 0;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  transition: all 500ms ease;
+  z-index: 0;
+}
+
+#projects .project-description {
+  font-size: 1.2rem;
+  font-family: "Philosopher", serif;
+  max-width: 90%;
+  text-align: center;
+  color: white;
+  opacity: 0;              /* hidden by default */
+  z-index: 1;              /* text above image */
+  transition: opacity 0.5s ease;
+}
+
+#projects .project::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.6); /* dark overlay */
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  z-index: 0;
 }
 
 #projects .project:hover img {
   transform: scale(1.1);
-  opacity: 0.2;
+  opacity: 0.6;
 }
 
-#projects .line-1 .project:first-child,
-#projects .line-2 .project:last-child {
-  flex: 3;
+#projects .project:hover .project-description {
+  opacity: 1; /* show text */
 }
 
-#projects .line-1 .project:last-child,
-#projects .line-2 .project:first-child {
-  flex: 2;
+#projects .project:hover::after {
+  opacity: 1; /* show overlay */
 }
 
-#projects .project-description {
-  font-size: 2rem;
-  font-family: "Philosopher", serif;
-  max-width: 400px;
-}
 
 /* Process section */
 
